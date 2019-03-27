@@ -52,6 +52,7 @@ export default ({
       {date && <meta property="og:updated_time" content={date} />}
       {audio && <meta property="og:audio" content={audio} />}
       <meta property="og:locale" content="en_US" />
+      <meta property="og:image" content="/img/logo-small.svg" />
       {siteTitle && <meta property="og:site_name" content={siteTitle} />}
       {videos &&
         videos
